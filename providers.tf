@@ -13,7 +13,7 @@ terraform {
       version = ">=5.0.1, <5.43.0"
     }
   }
-}
+
 provider "aws" {
   region = "us-east-1"
   access_key = var.aws-access-key
