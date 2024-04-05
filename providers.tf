@@ -6,7 +6,7 @@ terraform {
       name = "tfc_democli"
     }
   }
-}
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
