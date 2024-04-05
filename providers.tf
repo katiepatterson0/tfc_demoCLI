@@ -3,10 +3,10 @@ terraform {
     organization = "patterson-demo"
 
     workspaces {
-      name = "tfc_demo2"
+      name = "tfc_democli"
     }
   }
-
+}
   required_providers {
     aws = {
       source  = "hashicorp/aws"
