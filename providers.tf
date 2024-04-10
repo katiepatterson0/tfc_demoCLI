@@ -16,7 +16,7 @@ terraform {
     organization = "patterson-demo"
 
     workspaces {
-      name = "clitest_outputs"
+      name = "clitestfix"
     }
   }
 }
