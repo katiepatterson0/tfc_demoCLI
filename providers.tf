@@ -16,7 +16,7 @@ terraform {
     organization = "patterson-demo"
 
     workspaces {
-      name = "cliapr10"
+      name = "ec2cli_a10"
     }
   }
 }
