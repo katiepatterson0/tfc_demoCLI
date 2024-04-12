@@ -17,7 +17,7 @@ terraform {
     organization = "patterson-demo"
 
     workspaces {
-      name = "cliwfapr11"
+      name = "apr12cli"
     }
   }
 }
