@@ -12,12 +12,3 @@ provider "aws" {
   secret_key = var.aws-secret-access-key
 }
 
-terraform {
-  cloud {
-    organization = "patterson-demo"
-
-    workspaces {
-      name = "tfcdemocli"
-    }
-  }
-}
